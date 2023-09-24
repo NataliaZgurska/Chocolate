@@ -11,7 +11,7 @@ h2,
 h3,
 h4,
 p {
-  border-top: 0;
+  margin-top: 0;
   margin-bottom: 0;
 }
 img {
@@ -65,6 +65,7 @@ header .container {
   line-height: 1.14;
   letter-spacing: -0.02em;
   display: flex;
+  align-items: center;
   gap: 24px;
 }
 .header-menu-list {
@@ -73,6 +74,7 @@ header .container {
 }
 .header-soc {
   display: flex;
+  align-items: center;
   gap: 14px;
 }
 .header-soc-list {
@@ -84,6 +86,8 @@ header .container {
 .hero {
   border-radius: 30px;
   background: rgba(17, 17, 17, 0.6);
+  padding-top: 381px;
+  padding-bottom: 40px;
 }
 .hero-title {
   color: #fff;
@@ -92,7 +96,13 @@ header .container {
   line-height: 1.21;
   letter-spacing: -0.03em;
   max-width: 484px;
+  margin-bottom: 32px;
 }
+.hero-all-buttons {
+  display: flex;
+  align-items: center;
+}
+
 .hero-button {
   color: #fff;
   font-size: 14px;
@@ -100,6 +110,25 @@ header .container {
   line-height: normal;
   border-radius: 100px;
   background: #fd9222;
+  cursor: pointer;
+  border: none;
+  padding: 14px 40px;
+  margin-right: 14px;
 }
 .hero-made {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  padding: 14px 40px;
+}
+.hero-scroll {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+  margin-left: auto;
 }
