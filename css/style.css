@@ -4,7 +4,7 @@ a {
   color: #111;
 }
 ul {
-  /*list-style: none;*/
+  list-style: none;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -163,4 +163,121 @@ header .container {
   line-height: 1.25;
   letter-spacing: -0.02em;
   max-width: 308px;
+}
+
+/*-------section3 Ingridients--------*/
+.ingridients {
+  padding-top: 120px;
+}
+.ingridients-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  max-width: 412px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.taste {
+  color: #fd9222;
+}
+.ingridients-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 32px;
+}
+.ingridients-item {
+  padding: 28px 23px;
+  width: calc((100% - 32px * 3) / 4);
+  border-radius: 15px;
+}
+.ingridients-item:nth-child(4n + 1) {
+  background-color: #fd9222;
+}
+
+.ingridients-item:nth-child(2n) {
+  border: 1px solid #fd9222;
+}
+.ingridients-item:nth-child(4n + 3) {
+  background-color: #1e1823;
+}
+
+.ingridients-item:nth-child(odd) .ingridients-name {
+  color: #fff;
+}
+
+.ingridients-img {
+  margin-bottom: 36px;
+}
+.ingridients-name {
+  font-weight: 600;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+/*-------section4 HOW it's made-------*/
+.howmade {
+}
+.howmade-title {
+}
+.howmade-subtitle {
+}
+.howmade-list {
+}
+.howmade-list-item {
+}
+.howmade-list-text {
+}
+.products {
+}
+.products-title {
+}
+.products-span {
+}
+.products-list {
+}
+.products-list-item {
+}
+.products-list-img {
+}
+.products-list-subtitle {
+}
+.products-list-text {
+}
+.products-list-button {
+}
+.topsellers {
+}
+.topsellers-title {
+}
+.topsellers-list {
+}
+.topsellers-list-item {
+}
+.topsellers-list-img {
+}
+.topsellers-list-subtitle {
+}
+.footer {
+}
+.footer-title {
+}
+.footer-menu-list {
+}
+.footer-menu-item {
+}
+.footer-social-title {
+}
+.footer-soc-list {
+}
+.footer-soc-item {
+}
+.footer-contact {
+}
+.footer-contact-list {
+}
+.footer-contact-item {
 }
